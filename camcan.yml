@@ -1,0 +1,11 @@
+name: camcan
+channels:
+- conda-forge
+- mrtrix3
+dependencies:	
+- matplotlib
+- mrtrix3
+- numpy
+- pip
+- pybids
+- python=3.7
