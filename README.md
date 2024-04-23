@@ -34,11 +34,13 @@ Run each numbered script in order. Unnumbered scripts are called by the
 numbered scripts and do not need to be called manually. Wait until the
 script finishes before starting the next numbered script.
 
-Some subjects do not have fieldmap images available. These are processed using the scripts ending in "_nofmap".
+Some subjects do not have fieldmap images available. These are processed using the scripts ending in "_nofmap". However, these subjects were not included in the statistical analysis.
 Subject CC721434 has incorrect orientation labels on their fieldmap images. These are remedied by running "sub-CC721434_fmap_corr.py".
 
 The original analysis was conducted on Red Hat Enterprise Linux Server
 release 7.4.
+
+The Cam-CAN data is available at https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/
 
 ## License
 Shield: [![CC BY-SA
